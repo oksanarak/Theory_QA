@@ -1,0 +1,28 @@
+ Regression testing
+
+Regression testing is a type of testing aimed at verifying changes made to an application or environment (fixing a defect, merging code, migrating to another operating system, database, web server or application server) to confirm that the pre-existing functionality works as before.
+Regression tests can be both functional and non-functional tests.
+
+As a rule, test cases written at the early stages of development and testing are used for regression testing. This ensures that changes in the new version of the application do not break existing functionality. It is recommended to automate regression tests to speed up the subsequent testing process and detect defects in the early stages of software development.
+
+There are three main types of regression testing depending on the context of use:
+➤Bug regression - an attempt to prove that a fixed bug is not actually fixed
+➤Old bugs regression - an attempt to prove that a recent code or data change broke fixing old bugs, i.e. old bugs started to play again.
+➤Side effect regression - an attempt to prove that a recent code or data change broke other parts of the application.
+
+
+Regression tests:
+
+✔️Confirm that recent changes to the code or the application as a whole have not negatively impacted existing functionality/features.
+
+✔️The goal is to make sure that fresh changes in the code do not have side effects on established working functionality.
+
+✔️Rechecking defects is not the goal of Regression.
+
+✔️Conducted based on project requirements and availability of resources (closed by autotests), "regression" can be carried out in parallel with re-tests.
+
+✔️The best reason to automate this type of testing, because manual can be extremely resource or time intensive.
+
+✔️Executed with any modification or changes in an existing project.
+
+✔️Regression testing test cases can be derived from functional requirements or specifications, user manuals, and run regardless of what developers have fixed.
