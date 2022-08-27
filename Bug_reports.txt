@@ -1,0 +1,24 @@
+Structure of a bug report
+
+A bug report is a specific report that outlines information about what is wrong and needs fixing with software or on a website. The report lists reasons, or seen errors, to point out exactly what is viewed as wrong, and also includes a request and/or details for how to address each issue.
+
+ID – Title – Summary –Steps to reproduce – Actual result – Expected result – Severity – Priority – Attachments – Reporter – Inputs
+
+Software Deployment Environments:
+-Dev – the developer environment is the environment in which software is developed, often just the developer’s computer.
+-Test – the environment in which interface testing is performed.
+-Stage – it is a testing environment that is exactly like a production environment. It aims to reflect the actual production environment as closely as possible and can connect to other production services and data such as databases. 
+-Prod – is the environment in which the software is deployed, where the product is available to users.
+-Pre-prod – this is an environment that is identical or as close as possible to productive: the same data, the same hardware and software environment, the same performance. It is used to make the final check of the software in conditions as close as possible to “combat”.
+
+Rules for compiling a bug report: 
+1). One bug per report.
+2). Where were you in the software when the bug occurred?
+3). What were you doing in the software when the bug happened?
+4). What were you expecting to happen?
+5). A screenshot or screen recording of the bug.
+6). Record technical information.
+7). Include any error messages and codes you received. 
+8). Can you replicate the issue?
+9). Have you tried to fix it yourself?
+10). How much is it impacting your work?
