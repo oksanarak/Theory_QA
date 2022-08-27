@@ -1,0 +1,19 @@
+ Smoke testing
+
+	Smoke tests – performed every time we receive a new build (version), project (system) for testing, while considering it relatively unstable. We need to make sure that the critical AUT (Application Under Test) functions work as expected. The idea of ​​this type of testing is to identify serious problems as early as possible, and reject this build (return for revision) at an early stage of testing, so as not to delve into long and complex tests, thereby not wasting time on obviously defective software.
+
+	Smoke tests:
+
+	✔️Executed to verify that the critical functional parts of the AUT are working as expected.
+
+	✔️The goal is to test the “stability” of the system as a whole in order to give the green light to more thorough testing.
+
+	✔️Rechecking defects is not the goal of Smoke.
+
+	✔️Smoke testing is performed before regression.
+
+	✔️Can be done automatically or manually.
+
+	✔️Is a subset of regression testing.
+
+	✔️Test cases are part of regression test cases, but they cover extremely critical functionality.
