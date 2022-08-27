@@ -1,0 +1,26 @@
+Test cases
+
+A test case is a professional documentation of a tester, a sequence of actions aimed at testing some functionality, describing how to come to the actual result.
+
+Test case attributes:
+- A unique test case ID – is required for easy organization of storage and navigation through our test kits.
+- The title – is the main theme or idea of ​​the test case. Brief description of its essence.
+- Preconditions – a description of conditions that are not directly related to the tested functionality, but must be met. (For example, only a registered user can leave a comment on your portal. This means that for the “Creating a comment” test case, the precondition “user is registered” and “user is authorized” will be required).
+- Steps – a description of the sequence of actions that should lead us to the expected result.
+- Expected result – result what we expect to see after the steps are completed.
+
+What else do you need to know before creating a test case?
+
+First, each test case that is executed gives us one of three results:
+	1. Positive result, if the actual result is equal to the expected result,
+	2. Negative result, if the actual result is not equal to the expected result. In this case, an error is found.
+	3. The test execution is blocked, if the test cannot be continued after one of the steps. In this case, the same error was found.
+
+Secondly, one test case tests one specific thing, and for this thing there should be only one expected result.
+ 
+What should not be in a test case:
+ 
+1. Dependencies on other test cases.
+2. Fuzzy wording of steps or expected result.
+3. Lack of information necessary for passing the test case.
+4. Too much detail.
