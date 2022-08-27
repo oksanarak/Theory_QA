@@ -1,0 +1,25 @@
+ Critical path testing
+
+Critical path test is the main type of test, during which the significant elements and functions of the application are tested to ensure that they work correctly in their standard use.
+
+	Most often in practice, at this level of testing, the bulk of the requirements for the product are checked. Example: the ability to type text, insert pictures, the ability to enter the site, create a post, etc.
+
+	For this type of testing, the most detailed and in-depth test cases are written to cover all the possible functionality of the application.
+
+	The critical path test can be either positive or negative:
+· A positive critical path test is a test of the functionality of the software product features that the user encounters on a daily basis.
+· A negative critical path test is a test of all kinds of non-standard use of functionality used by the user every day.
+
+
+Critical Path Testing Example
+(Service KUKU.io.)
+
+In order for the user to have access to the capabilities of this service, he daily performs the following actions:
+1). Go to KUKU.io website
+2). Enter login, password.
+3). Click Login
+4). Select accounts to post to
+5). Create post
+6). Publish a post
+7). View Post Status
+8). Service exit
