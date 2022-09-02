@@ -1,0 +1,162 @@
+Test Environment for Software Testing
+
+
+	What is a Test Environment?
+
+	A testing environment is a setup of software and hardware for the testing teams to execute test cases. In other words, it supports test execution with hardware, software and network configured.
+	Test bed or test environment is configured as per the need of the Application Under Test. On a few occasions, a test bed could be the combination of the test environment and the test data it operates.
+Setting up a right test environment ensures software testing success. Any flaws in this process may lead to extra cost and time to the client.
+ 
+	Key areas to set up in Test Environment.
+
+	For the test environment, a key area to set up includes:
+- System and applications
+- Test data
+- Database server
+- Front-end running environment
+- Client operating system
+- Browser
+- Hardware includes Server Operating system
+- Network
+- Documentation required like reference documents/configuration guides/installation guides/ user manuals
+ 
+ 
+	Process of Software Test environment setup.
+
+	Tests are limited to what can be tested and what not should be tested.
+	Following people are involved in test environment setup:
+- System Admins
+- Developers
+- Testers
+- Sometimes users or techies with an affinity for testing.
+	The test environment requires setting up of various number of distinct areas like,
+Setup of Test Server. Every test may not be executed on a local machine. It may need establishing a test server, which can support applications.
+	For example, Fedora set up for PHP, Java-based applications with or without mail servers, cron set up, Java-based applications, etc.
+Network. Network set up as per the test requirement. It includes:
+- Internet setup
+- LAN Wifi setup
+- Private network setup
+	It ensures that the congestion that occurs during testing doesn’t affect other members. (Developers, designers, content writers, etc.)
+	Test PC setup. For web testing, you may need to set up different browsers for different testers. For desktop applications, you need various types of OS for different testers PCs.
+	For example, windows phone app testing may require:
+- Visual Studio installation
+- Windows phone emulator
+- Alternatively, assigning a windows phone to the tester.
+	Bug Reporting. Bug reporting tools should be provided to testers.
+	Creating Test Data for the Test Environment. Many companies use a separate test environment to test the software product. The common approach used is to copy production data to test. This helps the tester to detect the same issues as a live production server, without corrupting the production data.
+	The approach for copying production data to test data includes:
+- Set up production jobs to copy the data to a common test environment
+- All PII (Personally Identifiable Information) is modified along with other sensitive data. The PII is replaced with logically correct, but non-personal data.
+- Remove data that is irrelevant to your test.
+	Testers or developers can copy this to their individual test environment. They can modify it as per their requirement.
+	Privacy is the main issue in copy production data. To overcome privacy issues you should look into obfuscated and anonymized test data.
+	For Anonymization of data two approaches can be used:
+- BlackList: In this approach, all the data fields are left unchanged. Except those fields specified by the users.
+- WhiteList: By default, this approach, anonymizes all data fields. Except for a list of fields which are allowed to be copied. A whitelisted field implies that it is okay to copy the data as it is and anonymization is not required.
+	Also, if you are using production data, you need to be smart about how to source data. Querying the database using SQL script is an effective approach.
+ 
+ 
+Test Environment Management
+Test Environment Management deals with the maintenance and upkeep of the test bed.
+List of activities by the Test environment management function include:
+Maintenance of a central repository with all the updated versions of test environments.
+Test environment management as per the test team demands.
+As per the new requirements creating new environments
+Monitoring of the environments
+Updating/deleting outdated test-environments
+Investigation of issues on the environment
+Coordination till an issue resolution.
+ 
+ 
+ 
+ 
+ 
+Test Environment Checklist
+Hardware
+1
+Check whether required equipment for testing is available?
+If this is not the case, analyze the supply time!
+ 
+Check whether peripheral equipment is available?
+Such as scanners, special printers, handhelds, etc.
+Software / connections
+2
+Are the needed applications specified?
+An application such as excel, word, drawings, etc.
+ 
+For the new software does the test environment exist for the organization?
+Has the organization experience with use and maintenance of the software?
+Environmental data
+3
+Check whether the standard test data sets are available?
+With the regression test set, consider the Defect administration to collect test data.
+ 
+Do agreements with the test data owners about the test data exist?
+Consider functional maintenance.
+Maintenance tools/processes
+4
+Check whether a single point of contact exists for test environment maintenance?
+If not, prepare a list of all possible members involved in keeping the test environment running. It should include their contact information as well.
+ 
+Does the agreement reached about the readiness and quality of the test environment?
+For instance, acceptance criteria, maintenance requirements, etc. Also, check whether other/extra quality attributes for environments are there in agreement.
+ 
+Do all members involved in the maintenance process are known?
+ 
+
+ 
+ 
+ 
+Besides these, there are a few more questions to answer before setting up the test environment.
+Whether to develop an internal Test Environment or to outsource?
+Whether to follow an internal company standard or follow any External (IEE, ISO, etc.)?
+How long is the test environment required?
+Differences between the test and production systems and their impact on test validity must be determined.
+Can you reuse an existing setup for other projects in the company?
+ 
+ 
+Challenges in setting up Test Environment Management
+Proper planning on resource usage. Ineffective planning for resource usage can affect the actual output. Also, it may lead to conflict between teams.
+Remote environment. It is possible that a Test environment is located geographically apart. In such a case, the testing team has to rely on the support team for various test assets. (Software, hardware, and other issues).
+Elaborate setup time. Sometimes test set up gets too elaborated in cases of Integration Testing.
+Shared usage by teams. If the testing environment is used by the development & testing team simultaneously, test results will be corrupted.
+Complex test configuration. Certain tests require complex test environment configuration. It may pose a challenge to the test team.
+ 
+ 
+Best practices for setting up a Test Environment Management
+Understand the test requirements thoroughly and educate the test team members.
+Connectivity should be checked before the initiation of the testing
+Check for the required hardware and software, licenses
+Browsers and versions
+Planning out the Scheduled use of the test environment.
+Automation tools and their configurations.
+ 
+ 
+What is a Test Bed in Software Testing?
+A Test Bed in Software Testing is a software development environment. It allows developers to test their modules without affecting the live production servers. Test bed is not only confined to developers but also used by testers. It is referred to as a test environment for rigorous and transparent testing of new technologies.
+ 
+ 
+ 
+Test Environment
+A test environment is where the testing teams analyze the quality of the application/program. This also allows computer programmers to identify and fix any bugs that may impact smooth functioning of the application or impair user experience.
+A test environment is built by setting aside storage, computing and additional resources required for testing. This may include new devices, physical or virtual, provisioned for testing use cases as defined by developers.
+What Is a Testing Environment Used For?
+Testing is used to ensure the quality and functionality of the application, identify open bugs and review bug fixes. A test environment allows software developers to check how a code/program will behave in a live environment. The testing environment should closely resemble the production environment since it is one of the last safe places to find and fix environment-related bugs before moving into production.
+What Are the Different Types of Testing Environments?
+Testing environments are a critical part of the software development lifecycle. These environments enable programmers to conduct several tests to eliminate errors and improve the overall quality of the application. There are different types of testing environments that help analyze various elements of a software program such as performance, user experience, security and more. Listed below are the most common types of testing environments.
+Performance Testing Environment
+This environment allows developers to measure how fast an application responds to an interaction. Various aspects of an application, such as page load speeds, input processing, stability, reliability and so on, are tested in this environment. 
+System Integration Testing (SIT)
+The main purpose of system integration testing is to check if all modules, such as code modules, individual applications, and client and server applications, can communicate with each other as per their dependencies. It also ensures shared databases work as expected. 
+User Acceptance Testing (UAT)
+Acceptance or user acceptance testing is conducted to check if the application meets the business requirements of the end users. This is the final stage of testing. If the features and functionalities of the application satisfy the end user, the application is moved to the production environment. 
+Quality Assurance (QA)
+Quality assurance testing ensures that the application developed is of the highest quality possible for end users/clients. In this environment, computer programmers test the new software against the previous version to verify that the new product meets the specified parameters. 
+Security Testing
+This helps developers check the security aspects of a software. These types of tests are performed by specialized testers to examine how secure the software/application is from malicious programs, viruses, threat actors, etc. Testers also validate the authorization and authentication features of the program in this environment. 
+Chaos Testing
+This test environment analyzes the resiliency of an application by proactively identifying potential areas that could result in application failure or negatively impact end users. This allows development and IT teams to see how the application will perform under pressure or stress conditions. This helps prevent unplanned downtime and enhances user experience. 
+Alpha Testing
+In this environment, end-to-end testing is performed on an application after all modules have been integrated successfully. The goal of an Alpha test is to ensure the application performs according to the client’s expectations. 
+Beta Testing
+In a Beta testing environment, the application is released to limited users. Real-world users put the application under stress to ensure the product works as intended and satisfies end-user requirements. This is the last testing environment before the final application is released for commercial use. A staging environment with open access is necessary here.
